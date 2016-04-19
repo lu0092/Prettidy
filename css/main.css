@@ -1,5 +1,5 @@
 * {
-	border: 1px solid rgba(255,0,0,0.3);
+	border: 1px solid rgba(255,0,0,0.2);
 }
 body {
 	font-family: "Oswald"
@@ -9,11 +9,11 @@ ul>li {
 	display: inline-block;
 }
 h1 {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	color: #FFF;
 }
 h4 {
-	margin-bottom: 300px;
+	
 	color: #FFF;
 }
 .menu {
@@ -22,10 +22,34 @@ h4 {
 	margin-bottom: 20px;
 }
 .header {
-	width: 950px;
+	width: 960px;
 	height: 350px;
 	background-image: url(../images/background.jpg);background-size: 1450px 600px;overflow: hidden;
     background-repeat: no-repeat; }
 .cabeza {
 	margin-top: 40px;
+}
+.about {
+	padding-right: 30px;
+	padding-left: 30px;
+	background-image: url(../images/tile1.png);}
+.titulos {
+	color: #c71fcb; }
+.scroll	{
+    overflow: auto;
+	height: 211px;
+}
+.redondo {
+	border-radius: 100%;
+	width: 18%;
+	padding: 0.4%;
+	border: 1px solid #c71fcb;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.footer {
+	background-image: url(../images/tile2.png);
+}
+.pie {
+	margin-right: 20px;
 }
