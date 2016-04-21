@@ -32,6 +32,12 @@ a {
 .head {
 	border-radius: 100%;
 	width: 7%;
+<<<<<<< HEAD
+=======
+	position: relative;
+	left: 0px;
+	bottom: -100px;
+>>>>>>> 8ce3e7a0f9fabef6973c8da87a9fa9ca340a9c4f
 }
 .cabeza {
 	margin-top: 40px;
