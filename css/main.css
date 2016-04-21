@@ -1,9 +1,6 @@
-* {
-	border: 1px solid rgba(255,0,0,0.2);
-}
 body {
-	font-family: "Oswald"
-}
+	font-family: "Oswald";
+	}
 ul>li {
 	list-style: none;
 	display: inline-block;
@@ -12,29 +9,93 @@ h1 {
 	margin-bottom: 30px;
 	color: #FFF;
 }
-h4 {
-	
+h4 {	
 	color: #FFF;
 }
+a {
+	text-decoration: none;
+}
+.color {
+	color: #fff;
+}
 .menu {
-	margin-left: 60px;
+	font-size: 25px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
+	}
 .header {
-	width: 960px;
-	height: 350px;
-	background-image: url(../images/background.jpg);background-size: 1450px 600px;overflow: hidden;
-    background-repeat: no-repeat; }
+	width: 100%;
+	height: 420px;
+	background-image: url(../back.jpg);background-size: 1800px 420px;overflow: hidden;
+    background-repeat: no-repeat;
+    }
+.head {
+	border-radius: 100%;
+	width: 7%;
+	position: relative;
+	left: 0px;
+	bottom: -100px;
+}
 .cabeza {
 	margin-top: 40px;
+	text-shadow: 0 0 10px #989d9f,
+                   0 0 20px #989d9f,
+                   0 0 30px #989d9f,
+                   0 0 40px #00b9ff,
+                   0 0 70px #00b9ff,
+                   0 0 80px #00b9ff,
+                   0 0 100px #00b9ff,
+                   0 0 150px #00b9ff;
+}
+.cabeza1 {
+	text-shadow: 0 0 10px #606367,
+                   0 0 20px #606367,
+                   0 0 30px #606367,
+                   0 0 40px #2977e3,
+                   0 0 70px #2977e3,
+                   0 0 80px #2977e3,
+                   0 0 100px #2977e3,
+                   0 0 150px #2977e3;
+}
+.fondo1 {
+	background-image: url(../bluback.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
 }
 .about {
-	padding-right: 30px;
-	padding-left: 30px;
-	background-image: url(../images/tile1.png);}
+	padding: 40px;
+	}
+.yo {
+	width: 100%;
+	border: 5px ridge #00b9ff ;
+}
+.bio {
+	margin-top: 60px;
+}
 .titulos {
-	color: #c71fcb; }
+	font-size: 40px;
+	text-shadow: 0 0 20px #606367,
+                   0 0 20px #606367,
+                   0 0 30px #606367,
+                   0 0 40px #2977e3,
+                   0 0 70px #2977e3,
+                   0 0 80px #2977e3,
+                   0 0 100px #2977e3,
+                   0 0 150px #2977e3;
+ }
+ .subtitulos {
+ 	font-size: 20px;
+ 	text-shadow: 0 0 20px #606367,
+                   0 0 20px #606367,
+                   0 0 30px #606367,
+                   0 0 40px #2977e3,
+                   0 0 70px #2977e3,
+                   0 0 80px #2977e3,
+                   0 0 100px #2977e3,
+                   0 0 150px #2977e3;
+ }
 .scroll	{
     overflow: auto;
 	height: 211px;
@@ -46,9 +107,6 @@ h4 {
 	border: 1px solid #c71fcb;
 	margin-right: 30px;
 	margin-top: 30px;
-}
-.footer {
-	background-image: url(../images/tile2.png);
 }
 .pie {
 	margin-right: 20px;
